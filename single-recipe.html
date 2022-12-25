@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Single Recipe || Starter</title>
+    <title>Food & Love || Single Recipes</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <!-- normalize -->
     <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Chivo+Mono|Roboto"
+    />
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -18,7 +23,47 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-   <h1>Single Recipe Page</h1>
-    
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="food&love" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <h1>Single Recipe</h1>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span
+        ><span class="footer-logo"> FOOD & LOVE</span> Built by
+        <a href="https://www.linkedin.com/in/victor-odoh-26b201252/"
+          >BTechSolutions</a
+        >
+      </p>
+    </footer>
+    <!-- end of footer -->
+    <script src="./js/app.js"></script>
   </body>
 </html>
